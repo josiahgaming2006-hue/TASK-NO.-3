@@ -1,2 +1,95 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CCIS Week 2025 — Campus Event Showcase</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>SMCC-CCIS Week 2025 – Campus Event Showcase 🎓🎉</h1>
+    <nav class="tabs">
+      <button class="tablink" onclick="openTab(event, 'Overview')">Overview</button>
+      <button class="tablink" onclick="openTab(event, 'Schedule')">Schedule</button>
+      <button class="tablink" onclick="openTab(event, 'Location')">Location</button>
+      <button class="tablink" onclick="openTab(event, 'FAQ')">FAQ</button>
+      <button class="tablink" onclick="openTab(event, 'TechDemo')">Tech Demo</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Overview Section -->
+    <section id="Overview" class="tabcontent">
+      <h2>Event Overview</h2>
+      <p>SMCC-CCIS Week 2025 is an annual campus event that highlights student projects, industry talks, and hands-on workshops about software development, cybersecurity, artificial intelligence, and more.</p>
+      <p>Join us for a week of learning, networking, and fun as we celebrate the power of technology in education & innovation.</p>
+      <!-- You could add event logo, images, etc. here -->
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="Schedule" class="tabcontent">
+      <h2>Event Schedule</h2>
+      <ul>
+        <li>Day 1 – Opening Program & Keynote Talks</li>
+        <li>Day 2 – Coding Hackathon 💻</li>
+        <li>Day 3 – Robotics & IoT Exhibition 🤖</li>
+        <li>Day 4 – Cybersecurity Awareness Sessions</li>
+        <li>Day 5 – Project Showcase & Awarding Ceremony 🏆</li>
+      </ul>
+    </section>
+
+    <!-- Location Section -->
+    <section id="Location" class="tabcontent">
+      <h2>Event Location & Map</h2>
+      <p>All events will be held at the SMCC Main Campus – IT Building.</p>
+      <!-- Placeholder for map; replace with a real map embed -->
+      <div id="mapPlaceholder" class="map">
+        [Insert Map Here]
+      </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section id="FAQ" class="tabcontent">
+      <h2>Frequently Asked Questions (FAQ)</h2>
+      <div class="accordion-item">
+        <button class="accordion-question">Is the event open to all students?</button>
+        <div class="accordion-answer">
+          <p>Yes, the event is open to all departments and year levels.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-question">Do I need to register?</button>
+        <div class="accordion-answer">
+          <p>Registration is required for competitions and workshops.</p>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <button class="accordion-question">Is there a registration fee?</button>
+        <div class="accordion-answer">
+          <p>No — all SMCC-CCIS Week 2025 activities are free of charge.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Demo Section -->
+    <section id="TechDemo" class="tabcontent">
+      <h2>Tech Demo & Developer Notes</h2>
+      <pre><code>
+// Example Command (using &lt;pre&gt; and &lt;code&gt; tags)
+git clone https://github.com/example/ccisweek2025.git
+npm install
+npm run dev
+      </code></pre>
+      <p>Note: This is only a sample. Customize with real commands or demo instructions.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 SMCC-CCIS Week. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
